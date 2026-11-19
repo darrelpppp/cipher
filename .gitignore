@@ -17,3 +17,6 @@ database/init/*.sql
 
 # handoff bundles (gitignored: they carry the db content dump)
 cipher-handoff-*.zip
+
+# cloud attachment scratch dir
+.cloud-attachments/
