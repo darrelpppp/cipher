@@ -3,7 +3,7 @@
 usage:
     .venv/Scripts/python -m backend.import_case_studies --dry-run
     .venv/Scripts/python -m backend.import_case_studies
-    .venv/Scripts/python -m backend.import_case_studies --dir "C:/Users/ADVAN/Downloads/cipher content"
+    .venv/Scripts/python -m backend.import_case_studies --dir "C:/Users/ADVAN/Downloads/dev/cipher/cipher content"
 
 each file like 1-2-suspicious-website-logins-variant-a-teacher.md becomes one
 case_study lesson titled "<code> <topic>" in the unit's
@@ -367,7 +367,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--dir",
-        default=r"C:\Users\ADVAN\Downloads\cipher content",
+        default=r"C:\Users\ADVAN\Downloads\dev\cipher\cipher content",
         help="folder containing the teacher-guide markdown files",
     )
     parser.add_argument(
